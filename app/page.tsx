@@ -110,12 +110,38 @@ export default function Page() {
                       Deploy the contract on the <code>Sepolia testnet</code>{" "}
                       and run the update there as well, keep the console outputs.
                     </li>
+                    <li>
+                       <strong>Include Your Registration Number, Name in the README as well as in the PR title.</strong>
+                    </li>
                   </ol>
 
                   <h2 className="text-lg font-medium mt-6">
                     Submission checklist
                   </h2>
                   <ul className="ml-6 mt-2 space-y-2">
+
+                    <li className="flex items-start gap-2">
+                      <HugeiconsIcon
+                        icon={CheckmarkSquare02Icon}
+                        size={22}
+                        className="mt-0.5 flex-shrink-0"
+                      />
+                      <span>
+                        Complete the assignment by the deadline:{" "}
+                        <strong>3rd September 2025, 6:00 PM UTC</strong>.
+                      </span>
+                    </li>
+
+                    <li className="flex items-start gap-2">
+                      <HugeiconsIcon
+                        icon={CheckmarkSquare02Icon}
+                        size={22}
+                        className="mt-0.5 flex-shrink-0"
+                      />
+                      <span >
+                        <strong>Include Your Registration Number, Name in the README as well as in the PR title. </strong>
+                      </span>
+                    </li>
                     <li className="flex items-start gap-2">
                       <HugeiconsIcon
                         icon={CheckmarkSquare02Icon}
