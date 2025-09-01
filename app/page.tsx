@@ -23,7 +23,7 @@ export default function Page() {
                 <div className="flex items-center gap-2">
                   <span className="text-base text-gray-600 dark:text-gray-400">Time left:</span>
                   <div className="text-lg">
-                    <Countdown targetDate={new Date('2025-09-03T18:00:00.000Z')} />
+                    <Countdown targetDate={new Date('2025-09-03T12:30:00.000Z')} />
                   </div>
                 </div>
               </div>
